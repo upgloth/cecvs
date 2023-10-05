@@ -121,6 +121,7 @@ export default {
                     }
                     else {
                         // Erro, mostra erro
+                        this.errorText = "Erro ao salvar, certifique-se de que os dados informados são válidos e tente novamente.";
                         this.showErros = true;
                     }
 
@@ -150,6 +151,7 @@ export default {
                     }
                     else {
                         // Erro, mostra erro
+                        this.errorText = "Erro ao atualizar, certifique-se de que os dados informados são válidos e tente novamente.";
                         this.showErros = true;
                     }
 
@@ -177,6 +179,7 @@ export default {
                     }
                     else {
                         // Erro, mostra erro
+                        this.errorText = "Erro ao deletar, tente novamente.";
                         this.showErros = true;
                     }
                 }
